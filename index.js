@@ -13,8 +13,10 @@ const writeCards = (arr,event) => {
 console.log(writeCards(["Charlie", "Samip", "Ali"], "birthday"))
 
 
-let countdown = 10;
-while (countdown > 0) {
-  console.log(countdown--);
-}
-  console.log(countdown);
+
+function countDown(i) {
+  while (i >= 0) 
+    console.log(i--);
+  }
+
+  countDown(10);
